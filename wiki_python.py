@@ -10,3 +10,6 @@ del lista[] # funkcją del usuniemy wartość z listy jeżeli znamy ich położe
 print(sorted(lista)) # sortowanie listy alfabetycznie i wyświetlenie jej. Tą funkcją nie zmienimy na stałe kolejności listy
 lista.sort() # funkcja sort posortuje nam alfabetycznie listy na stałe 
 lista.sort(reverse = True) #sortuje odwrotnie alfabetycznie.
+for value in range(1,21): # wypisanie liczb pokoleji od 1 do 20 pętlą for
+    print(value)
+number = list(range(1,11)) # utworzenie listy z liczbami od 1 do 10
