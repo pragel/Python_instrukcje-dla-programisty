@@ -13,3 +13,8 @@ lista.sort(reverse = True) #sortuje odwrotnie alfabetycznie.
 for value in range(1,21): # wypisanie liczb pokoleji od 1 do 20 pętlą for
     print(value)
 number = list(range(1,11)) # utworzenie listy z liczbami od 1 do 10
+#wycinek listy
+players = ["karol", "martyna", "michał", "florian", "ela"]
+print(players[1:3]) #wycinek z listy pokaże nam martyna, michał
+print(players[:3]) #pomineliśmy pierwszy argument na wycinku listy co za tym idzie lista wyświetli nam się od pierwszej pozycji do trzeciej czyli karol, martyna, michał
+print(players[3:]) #analogiczna sytuacja z tym że wycinek zacznie się od florian, ela 
