@@ -18,3 +18,9 @@ players = ["karol", "martyna", "michał", "florian", "ela"]
 print(players[1:3]) #wycinek z listy pokaże nam martyna, michał
 print(players[:3]) #pomineliśmy pierwszy argument na wycinku listy co za tym idzie lista wyświetli nam się od pierwszej pozycji do trzeciej czyli karol, martyna, michał
 print(players[3:]) #analogiczna sytuacja z tym że wycinek zacznie się od florian, ela 
+
+# KROTKA - JEST TO LISTA NIEMODYFIKOWALNA I TWORZYMY JĄ ZA POMOĆĄ NAWIASÓW OKRĄGŁYCH PRZYKJŁAD:
+prostokat = (100,50) # jest to KROTKA nie zmodyfikujemy tej listy w żaden sposób / nie dodamy nie odejmiemy nie zmienimy wartości tych elementów
+print(prostokat[0]) # wyswietlanie elementów listy odbywa sie tak samo jak przy zwykłej liście 
+kolo = (4,) # możemy w KROTCE zdefiniować jeden argument ale aby była nie edytowalna musi zawierać przecinek
+kolo = (2,) #krotke można nadpisać ale nie modyfikować 
