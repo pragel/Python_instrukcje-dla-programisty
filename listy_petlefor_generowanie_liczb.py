@@ -17,10 +17,7 @@ print(x)
 print(y)
 print(z)
 
-nieparzyste = list(range(1,20,2))
-for nieparzyst in nieparzyste:
-    print(nieparzyst)
-print("\n")
+
 
 potegi = list(range(3,31,))
 for potegowanie in potegi:
@@ -41,3 +38,16 @@ print(szescian)
 # funkcja składana
 szescian = [value **3 for value in range(1,11)]
 print(szescian)
+
+#WYCINKI
+nieparzyste = list(range(1,20,2))
+for nieparzyst in nieparzyste:
+    print(nieparzyst)
+print("\n")
+
+print("Pierwsze trzy elementy listy to: ")
+print(nieparzyste[0:3])
+print("Trzy elementy w środku to: ")
+print(nieparzyste[4:7])
+print("Trzy ostatnie elementy listy to:")
+print(nieparzyste[-3:])
